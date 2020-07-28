@@ -49,3 +49,9 @@ AffineCoupling(x, mask):
 
 #### Results
 The dataset used is CIFAR10 and the samples were generated after 5, 10, 15 and 20 epochs. The images generated for CIFAR10 are as follows,
+
+#### References
+1. https://github.com/fmu2/realNVP
+2. Implementation of Real_NVP in pytorchhttps://github.com/chrischute/real-nvp
+3. CS294 Deep Unsupervised Learning Course - Assignment 2 https://sites.google.com/view/berkeley-cs294-158-sp20/home
+
