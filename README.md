@@ -1,4 +1,4 @@
-#### Pytorch Implementation of RealNVP
+## Pytorch Implementation of RealNVP
 Basic pytorch implementation of RealNVP for higher dimensional images based on the paper <a href = "https://arxiv.org/abs/1605.08803">Density estimation using Real NVP</a>.
 
 The pseudocode for the realNVP class ,
@@ -46,3 +46,6 @@ AffineCoupling(x, mask):
   log_det_jacobian = log_scale
   return z, log_det_jacobian
 ```
+
+#### Results
+The dataset used is CIFAR10 and the samples were generated after 5, 10, 15 and 20 epochs. The images generated for CIFAR10 are as follows,
